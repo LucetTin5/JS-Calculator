@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/cal2.css">
+    <title>JS Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="calculator__title">
+            <h2>Calculate Here</h2>
+        </div>
+        <div class="display">
+            <div class="display__display"></div>
+            <button class="display__clear" value="clear">C</button>
+            <!-- display + Clear button -->
+        </div>
+        <div class="digits-wrapper">
+            <div class="digits__ops">
+                <div class="digits__ops-row">
+                    <button class="digits__ops__ops" value="backspace"><i class="fas fa-backspace"></i></button>
+                    <button class="digits__ops__ops" value="="><i class="fas fa-equals"></i></button>
+                </div>
+                <div class="digits__ops-row">
+                    <button class="digits__ops__ops" value="+"><i class="fas fa-plus"></i></button>
+                    <button class="digits__ops__ops" value="-"><i class="fas fa-minus"></i></button>
+                    <button class="digits__ops__ops" value="*"><i class="fas fa-times"></i></button>
+                    <button class="digits__ops__ops" value="/"><i class="fas fa-divide"></i></button>
+                </div>
+            </div>
+            <div class="digits__nums">
+                <div class="digits__nums-row">
+                    <button class="digits__nums__num">7</button>
+                    <button class="digits__nums__num">8</button>
+                    <button class="digits__nums__num">9</button>
+                </div>
+                <div class="digits__nums-row">
+                    <button class="digits__nums__num">4</button>
+                    <button class="digits__nums__num">5</button>
+                    <button class="digits__nums__num">6</button>
+                </div>
+                <div class="digits__nums-row">
+                    <button class="digits__nums__num">1</button>
+                    <button class="digits__nums__num">2</button>
+                    <button class="digits__nums__num">3</button>
+                </div>
+                <div class="digits__nums-row">
+                    <button class="digits__nums__num" value="negative">+/-</button>
+                    <button class="digits__nums__num">0</button>
+                    <button class="digits__nums__num" value=".">.</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="src/cal.js"></script>
+</body>
+</html>
